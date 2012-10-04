@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/ivPreview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:layout_weight="0"
+		android:scaleType="fitCenter"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/tvTestata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/bDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:text="Download" />
+
+</LinearLayout>
